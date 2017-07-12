@@ -2,10 +2,12 @@
   "name": "es-to-css",
   "version": "1.0.3",
   "description": "Convert ES Object into CSS styles text",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha test",
-    "postpublish": "git push && git push --tags"
+    "prepublishOnly": "npm run build",
+    "postpublish": "git push && git push --tags",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,9 @@
   },
   "homepage": "https://github.com/coockoo/es-to-css#readme",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
     "mocha": "^3.4.2"
   }
 }
