@@ -1,0 +1,27 @@
+{
+  "name": "es-to-css",
+  "version": "1.0.0",
+  "description": "Convert ES Object into CSS styles text",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coockoo/es-to-css.git"
+  },
+  "keywords": [
+    "es",
+    "css",
+    "object",
+    "styles",
+    "nested",
+    "pseudo-classes"
+  ],
+  "author": "Oleksandr Bondarchuk <alex.coockoo@gmail.com> (https://github.com/coockoo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coockoo/es-to-css/issues"
+  },
+  "homepage": "https://github.com/coockoo/es-to-css#readme"
+}
