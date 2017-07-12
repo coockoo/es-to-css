@@ -4,7 +4,8 @@
   "description": "Convert ES Object into CSS styles text",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "postpublish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
