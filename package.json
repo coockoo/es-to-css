@@ -1,6 +1,6 @@
 {
   "name": "es-to-css",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Convert ES Object into CSS styles text",
   "main": "dist/index.js",
   "scripts": {
